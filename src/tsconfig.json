@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/", // target for compiled files
+    "allowSyntheticDefaultImports": true, // no errors on commonjs default import
+    "lib": ["es2016", "es2017.object"],
+    "target": "es6", // "es2015" for ES6+ engines
+    "module": "commonjs", // "es2015" for tree-shaking
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    // "bun-types" is the important part
+    "types": ["bun-types"]
+  }
+}
